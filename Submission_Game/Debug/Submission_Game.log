@@ -1,19 +1,35 @@
-﻿Build started 03/07/2017 18:49:26.
+﻿Build started 03/07/2017 20:33:01.
      1>Project "D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Submission_Game\Submission_Game.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Visual Studio\VC\bin\CL.exe /c /I"D:\301CR_Resit\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Enemies.cpp
+         D:\Visual Studio\VC\bin\CL.exe /c /I"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_STATIC /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Analytics.cpp Bullet.cpp Enemies.cpp Main.cpp Player.cpp
+         Player.cpp
+         Main.cpp
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\main.cpp(76): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\main.cpp(83): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\main.cpp(251): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\main.cpp(270): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\main.cpp(303): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\main.cpp(66): warning C4101: 'statBox' : unreferenced local variable
          Enemies.cpp
      1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\enemies.cpp(45): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
      1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\enemies.cpp(45): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Bullet.cpp
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\bullet.cpp(61): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Analytics.cpp
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\analytics.cpp(66): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\bullet.cpp(53): warning C4715: 'Bullet::bulletMove' : not all control paths return a value
+     1>d:\301cr_resit\resit_game\301cr_submission\submission_game\submission_game\bullet.cpp(29): warning C4715: 'Bullet::collision' : not all control paths return a value
        Link:
-         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Debug\Submission_Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\301CR_Resit\SFML-2.4.2\lib" "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" opengl32.lib freetype.lib jpeg.lib winmm.lib gdi32.lib "sfml-audio-s-d.lib" openal32.lib flac.lib vorbisenc.lib vorbisfile.lib vorbis.lib ogg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Debug\Submission_Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Debug\Submission_Game.lib" /MACHINE:X86 Debug\Analytics.obj
+         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Debug\Submission_Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\SFML-2.4.2\lib" "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" opengl32.lib freetype.lib jpeg.lib winmm.lib gdi32.lib "sfml-audio-s-d.lib" openal32.lib flac.lib vorbisenc.lib vorbisfile.lib vorbis.lib ogg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Debug\Submission_Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Debug\Submission_Game.lib" /MACHINE:X86 Debug\Analytics.obj
          Debug\Bullet.obj
          Debug\Enemies.obj
          Debug\Main.obj
          Debug\Player.obj
+         LINK : D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Debug\Submission_Game.exe not found or not built by the last incremental link; performing full link
          Submission_Game.vcxproj -> D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Debug\Submission_Game.exe
      1>Done Building Project "D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Submission_Game\Submission_Game.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.88
+Time Elapsed 00:00:04.22

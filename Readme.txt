@@ -1,5 +1,7 @@
 301CR Submission
 
+WARNING: Open project through Debug only. Release has a Linker issue that is not obvious and as such, a fix has been omitted.
+
 Contents:
 Description
 Controls

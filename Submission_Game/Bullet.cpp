@@ -51,6 +51,7 @@ sf::Vector2f Bullet::bulletMove(sf::Vector2f pos, float screenWidth)
 		return pos;
 	}
 }
+
 void Bullet::draw(sf::Vector2f pos)
 {
 	bullet.setPosition(pos.x, pos.y);

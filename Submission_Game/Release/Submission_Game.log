@@ -1,11 +1,15 @@
-﻿Build started 25/06/2017 12:26:16.
-     1>Project "D:\Desktop Hub\Final Year\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Submission_Game\Submission_Game.vcxproj" on node 2 (Build target(s)).
+﻿Build started 03/07/2017 20:39:32.
+     1>Project "D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Submission_Game\Submission_Game.vcxproj" on node 2 (Build target(s)).
      1>Link:
-         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Desktop Hub\Final Year\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Release\Submission_Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Desktop Hub\Final Year\301CR_Resit\SFML-2.4.2\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Desktop Hub\Final Year\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Release\Submission_Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Desktop Hub\Final Year\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Release\Submission_Game.lib" /MACHINE:X86 /SAFESEH Release\Main.obj
+         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Release\Submission_Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\SFML-2.4.2\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" "sfml-network.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Release\Submission_Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Release\Submission_Game.lib" /MACHINE:X86 /SAFESEH Release\Analytics.obj
+         Release\Bullet.obj
+         Release\Enemies.obj
+         Release\Main.obj
+         Release\Player.obj
      1>MSVCRT.lib(crtexew.obj) : error LNK2001: unresolved external symbol _WinMain@16
-     1>D:\Desktop Hub\Final Year\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Release\Submission_Game.exe : fatal error LNK1120: 1 unresolved externals
-     1>Done Building Project "D:\Desktop Hub\Final Year\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Submission_Game\Submission_Game.vcxproj" (Build target(s)) -- FAILED.
+     1>D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Release\Submission_Game.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\301CR_Resit\Resit_Game\301CR_Submission\Submission_Game\Submission_Game\Submission_Game.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.13
+Time Elapsed 00:00:00.31
